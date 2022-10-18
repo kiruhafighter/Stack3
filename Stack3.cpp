@@ -196,7 +196,7 @@ int main()
                 cin >> case6;
                 bool find_elem = ll.search(case6);
                 if (find_elem) {
-                    cout <<"Element " << case6 << " is in the Stack" << endl;
+                    cout <<"Element ('" << case6 << "') is in the Stack" << endl;
                 }
                 else {
                     cout << "This element does not belong to Stack" << endl;
